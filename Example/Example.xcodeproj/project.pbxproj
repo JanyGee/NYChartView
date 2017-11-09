@@ -13,6 +13,11 @@
 		310AE5A71FB4A4120023ADE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310AE5A51FB4A4120023ADE8 /* Main.storyboard */; };
 		310AE5A91FB4A4120023ADE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310AE5A81FB4A4120023ADE8 /* Assets.xcassets */; };
 		310AE5AC1FB4A4120023ADE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310AE5AA1FB4A4120023ADE8 /* LaunchScreen.storyboard */; };
+		310D23E81FB4AE0F001D33C1 /* NYBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D23DF1FB4AE0F001D33C1 /* NYBarLayer.m */; };
+		310D23E91FB4AE0F001D33C1 /* NYBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D23E11FB4AE0F001D33C1 /* NYBarView.m */; };
+		310D23EA1FB4AE0F001D33C1 /* NYCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D23E31FB4AE0F001D33C1 /* NYCollectionViewCell.m */; };
+		310D23EB1FB4AE0F001D33C1 /* NYCustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D23E51FB4AE0F001D33C1 /* NYCustomLayout.m */; };
+		310D23EC1FB4AE0F001D33C1 /* NYScrollChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D23E71FB4AE0F001D33C1 /* NYScrollChartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		310AE5A81FB4A4120023ADE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		310AE5AB1FB4A4120023ADE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		310AE5AD1FB4A4120023ADE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310D23DE1FB4AE0F001D33C1 /* NYBarLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYBarLayer.h; sourceTree = "<group>"; };
+		310D23DF1FB4AE0F001D33C1 /* NYBarLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYBarLayer.m; sourceTree = "<group>"; };
+		310D23E01FB4AE0F001D33C1 /* NYBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYBarView.h; sourceTree = "<group>"; };
+		310D23E11FB4AE0F001D33C1 /* NYBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYBarView.m; sourceTree = "<group>"; };
+		310D23E21FB4AE0F001D33C1 /* NYCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYCollectionViewCell.h; sourceTree = "<group>"; };
+		310D23E31FB4AE0F001D33C1 /* NYCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYCollectionViewCell.m; sourceTree = "<group>"; };
+		310D23E41FB4AE0F001D33C1 /* NYCustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYCustomLayout.h; sourceTree = "<group>"; };
+		310D23E51FB4AE0F001D33C1 /* NYCustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYCustomLayout.m; sourceTree = "<group>"; };
+		310D23E61FB4AE0F001D33C1 /* NYScrollChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYScrollChartView.h; sourceTree = "<group>"; };
+		310D23E71FB4AE0F001D33C1 /* NYScrollChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYScrollChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 		310AE59B1FB4A4120023ADE8 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				310D23DD1FB4AE0F001D33C1 /* NYChartView */,
 				310AE59F1FB4A4120023ADE8 /* AppDelegate.h */,
 				310AE5A01FB4A4120023ADE8 /* AppDelegate.m */,
 				310AE5A21FB4A4120023ADE8 /* ViewController.h */,
@@ -77,6 +93,24 @@
 				310AE59D1FB4A4120023ADE8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		310D23DD1FB4AE0F001D33C1 /* NYChartView */ = {
+			isa = PBXGroup;
+			children = (
+				310D23DE1FB4AE0F001D33C1 /* NYBarLayer.h */,
+				310D23DF1FB4AE0F001D33C1 /* NYBarLayer.m */,
+				310D23E01FB4AE0F001D33C1 /* NYBarView.h */,
+				310D23E11FB4AE0F001D33C1 /* NYBarView.m */,
+				310D23E21FB4AE0F001D33C1 /* NYCollectionViewCell.h */,
+				310D23E31FB4AE0F001D33C1 /* NYCollectionViewCell.m */,
+				310D23E41FB4AE0F001D33C1 /* NYCustomLayout.h */,
+				310D23E51FB4AE0F001D33C1 /* NYCustomLayout.m */,
+				310D23E61FB4AE0F001D33C1 /* NYScrollChartView.h */,
+				310D23E71FB4AE0F001D33C1 /* NYScrollChartView.m */,
+			);
+			name = NYChartView;
+			path = ../../NYChartView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +185,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				310D23E91FB4AE0F001D33C1 /* NYBarView.m in Sources */,
+				310D23EC1FB4AE0F001D33C1 /* NYScrollChartView.m in Sources */,
+				310D23EA1FB4AE0F001D33C1 /* NYCollectionViewCell.m in Sources */,
+				310D23E81FB4AE0F001D33C1 /* NYBarLayer.m in Sources */,
+				310D23EB1FB4AE0F001D33C1 /* NYCustomLayout.m in Sources */,
 				310AE5A41FB4A4120023ADE8 /* ViewController.m in Sources */,
 				310AE5A11FB4A4120023ADE8 /* AppDelegate.m in Sources */,
 				310AE59E1FB4A4120023ADE8 /* main.m in Sources */,
@@ -310,6 +349,7 @@
 				310AE5B21FB4A4120023ADE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
