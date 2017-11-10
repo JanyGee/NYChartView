@@ -1,3 +1,3 @@
 # NYChartView
 利用collection做的一个柱状图表
-![image](NYChartView/qq.gif)
+![image](https://github.com/JanyGee/NYChartView/blob/master/qq.gif)
